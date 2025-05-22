@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
 }
-
+  /* Giving the property display flex*/
 .emoji {
   display: flex;
   flex-direction: column;
@@ -15,13 +15,14 @@ body {
   border-radius: 8px;
   padding: 1rem;
 }
-
+/* Adding some margin and padding*/
 .emoji h2 {
   margin: 0;
   border-bottom: 2px solid #ccc;
   padding-bottom: 0.5rem;
   font-size: 1.1rem;
 }
+/* using grid and giving max width to containers*/
 .emojis {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
